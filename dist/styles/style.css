@@ -1,0 +1,66 @@
+body {
+  background-image: url(../img/bg-img.jpg);
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 25%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+div {
+  flex-direction: column;
+  background-color: #F2B705;
+  width: 50rem;
+  border: 3px black solid;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+}
+
+button {
+  background-color: #919041;
+  border-radius: 10%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+ol li {
+  list-style: none;
+  color: #736C4D;
+  font-style: italic;
+  font-size: 18px;
+}
+ol li:hover {
+  background-color: #F28705;
+}
+ol li li.pointer {
+  cursor: pointer;
+}
+
+#icon {
+  color: black;
+  font-size: 25px;
+}
+
+/*hadi version
+
+ul li {
+  position : relative;
+  transition: 0.05s;
+}
+li:nth-child(2n) {
+  background-color: white;
+}
+.close{
+  padding: .5rem;
+  margin-left :3rem;
+  &:hover{
+    background-color: lightblue;
+    color:lightsalmon; 
+  }
+}
+*/
+
+/*# sourceMappingURL=style.css.map */
